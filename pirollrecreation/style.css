@@ -5,8 +5,14 @@ body {
 }
 
 main {
- background-image: url(/Users/seth/Downloads/nastuh-abootalebi-284882-unsplash.jpg)
+ background-image: url(/Users/seth/Downloads/nastuh-abootalebi-284882-unsplash.jpg);
 }
+
+nav {
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
 .container {
   display: flex;
 }
@@ -15,11 +21,11 @@ main {
   
 }
 nav ul {
-  list-style: none;
-  justify-content: flex-end;
+  list-style: none;justify-content: flex-end;
 }
 
 nav ul li {
-  padding-left: 5%;
-  padding-right: 5%;
+  font-weight: bold;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
 }
