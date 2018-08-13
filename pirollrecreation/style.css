@@ -1,0 +1,25 @@
+
+
+body {
+  margin: 0;
+}
+
+main {
+ background-image: url(/Users/seth/Downloads/nastuh-abootalebi-284882-unsplash.jpg)
+}
+.container {
+  display: flex;
+}
+
+#logo {
+  
+}
+nav ul {
+  list-style: none;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  padding-left: 5%;
+  padding-right: 5%;
+}
