@@ -19,40 +19,9 @@ nav {
   margin-left: 2.5%;
   margin-right: 2.5%;
   text-transform: uppercase;
-font-weight: 600;
+font-weight: 1200;
 }
 
-.container {
-  display: flex;
-}
-
-#logo {
-  margin-right: 30%;
-  font-size: 1.5em;
-}
-#landing { 
-  flex-direction: column;
-  justify-content: flex-end;
-  margin-top: 25vh;
-  margin-left: auto;
-  margin-right: 10%;
-  width: 25%;
-  background-color: white;
- }
-
-
-
-.landing-h1 {
-  text-align: left;
-}
-.landing-button {
-  width: 40%;
-  text-align: center;
-}
-
-.text {
-  
-}
 nav ul {
   list-style: none;justify-content: flex-end;
 }
@@ -61,8 +30,47 @@ nav ul li {
   font-weight: bold;
   padding-left: 2.5%;
   padding-right: 2.5%;
+  letter-spacing: 1px
 }
 
-button {
-  width: 7%;
+.container {
+  display: flex;
 }
+
+#logo {
+  margin-right: 30%;
+  font-size: 2.5em;
+  font-weight: 600;
+}
+#landing { 
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-top: 26vh;
+  margin-left: auto;
+  margin-right: 5%;
+  width: 35vw;
+ }
+
+
+
+.landing-h1 {
+  text-align: left;
+  font-size: 2.8em;
+  letter-spacing: 2px;
+}
+.landing-button {
+  width: 25%;
+  height: 5%;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: .9em;
+  background-color:#40E0D0;
+  color: white;
+}
+
+.landing-paragraph {
+  font-size: 1.3em;
+  line-height: 1.5em;
+  letter-spacing: 1px;
+}
+
