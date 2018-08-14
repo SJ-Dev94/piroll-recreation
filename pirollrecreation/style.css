@@ -1,0 +1,68 @@
+
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;color: #333333; 
+}
+
+main {
+ background-image: url(/Users/seth/projects/pirollrecreation/assets/landingimg.jpeg);
+ background-repeat:no-repeat;
+background-size:cover;
+background-position:center;
+height: 100vh;
+overflow: hidden;
+font-size: .75em;
+}
+
+nav {
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  text-transform: uppercase;
+font-weight: 600;
+}
+
+.container {
+  display: flex;
+}
+
+#logo {
+  margin-right: 30%;
+  font-size: 1.5em;
+}
+#landing { 
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-top: 25vh;
+  margin-left: auto;
+  margin-right: 10%;
+  width: 25%;
+  background-color: white;
+ }
+
+
+
+.landing-h1 {
+  text-align: left;
+}
+.landing-button {
+  width: 40%;
+  text-align: center;
+}
+
+.text {
+  
+}
+nav ul {
+  list-style: none;justify-content: flex-end;
+}
+
+nav ul li {
+  font-weight: bold;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+}
+
+button {
+  width: 7%;
+}
