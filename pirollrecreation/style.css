@@ -6,36 +6,51 @@ body {
 }
 
 main {
- background-image: url(/Users/seth/projects/pirollrecreation/assets/landingimg.jpeg);
- background-repeat:no-repeat;
-background-size:cover;
-background-position:center;
-height: 100vh;
-overflow: hidden;
-font-size: .75em;
+	background-image: url(/Users/seth/projects/pirollrecreation/assets/landingimg.jpeg);
+	background-repeat:no-repeat;
+ 	background-size:cover;
+	background-position:center;
+	height: 100vh;
+	overflow: hidden;
+	font-size: .75em;
 }
 
 nav {
-  margin-left: 2.5%;
-  margin-right: 2.5%;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
   text-transform: uppercase;
-font-weight: 1200;
+  font-weight: 1200;
 }
 
 nav ul {
-  list-style: none;justify-content: flex-end;
+  list-style: none;
+  justify-content: flex-end;
+  
 }
 
 nav ul li {
   font-weight: bold;
   padding-left: 2.5%;
   padding-right: 2.5%;
-  letter-spacing: 1px
+  letter-spacing: 1.25px;
+
+}
+
+p {
+	font-size: 1.2em;
+	line-height: 1.5em;
+	word-spacing: 1px;
+	letter-spacing: 1.25px;
 }
 
 .container {
   display: flex;
 }
+
+.h3-letter-spacing{
+	letter-spacing: 1.5px;
+}
+
 
 #logo {
   margin-right: 30%;
@@ -65,12 +80,28 @@ nav ul li {
   letter-spacing: 2px;
   font-size: .9em;
   background-color:#40E0D0;
-  color: white;
+	color: white;
 }
 
-.landing-paragraph {
-  font-size: 1.3em;
-  line-height: 1.5em;
-  letter-spacing: 1px;
+
+#about {
+	margin-top: 15%;
+	height: 25vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	
+	text-align: center;
+
 }
 
+#about-paragraph {
+	width: 40vw;
+	margin: auto;
+	
+}
+
+#signature {
+	font-family: 'Mrs Saint Delafield', cursive;
+	
+}
