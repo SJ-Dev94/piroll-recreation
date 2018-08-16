@@ -8,7 +8,8 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
     crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Mrs+Saint+Delafield" rel="stylesheet">
   
   <title>Piroll</title>
 </head>
@@ -16,7 +17,7 @@
   <main>
     <nav>
       <ul class="container">
-        <i class="fab fa-500px" id="logo"></i>
+				<i class="fab fa-fulcrum" id="logo"></i>
         <li>Home</li>
         <li>About</li>
         <li>Work</li>
@@ -27,92 +28,131 @@
       </ul>
     </nav>
     <div class="container vertical" id="landing">
-    <h1 class="landing-h1">We Design and Develop</h1>
-    <p class="text">We are a new design studio based in USA. We have over 20 years of combined experience, and know a thing or two about designing websites and mobile apps.</p>
-    <button class="landing-button">Contact Us</button>
+    	<h1 class="landing-h1">We Design and Develop</h1>
+    	<p id="landing-p">We are a new design studio based in USA. We have over 20 years of combined experience, and know a thing or two about designing websites and mobile apps.</p>
+    	<button class="landing-button">Contact Us</button>
     </div>
   </main>
   <section id="about">
-    <h3>About Us</h3>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, quidem iste minima corrupti ipsam, tempore deleniti fugit nemo ratione numquam provident quisquam debitis.</p>
-    <img src="" alt="">
+    	<h3 class="h3-letter-spacing";>About Us</h3>
+			<p id="about-paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, quidem iste minima corrupti ipsam, tempore deleniti fugit nemo ratione numquam provident quisquam debitis.</p>
+			<h1 id="signature">Seth Jones</h1>
   </section>
-  <section id="professional_skills">
-    <h3>Professional Skills</h3>
-    <p>Ui/Ux Design</p>
-    <div class="progress-bar">
-      <div></div>
-    </div>
-    <p>Web Development</p>
-    <div class="progress-bar">
-      <div></div>
-    </div>
-    <p>Marketing</p>
-    <div class="progress-bar">
-      <div></div>
-    </div>
+  <section id="professional-skills">
+		<div class="professional-container">
+			<h3 class="h3-letter-spacing">Professional Skills</h3>
+    	<p>Ui/Ux Design</p>
+			<div class="meter">
+				<span style="width: 25%"></span>
+			</div>
+    	<p>Web Development</p>
+			<div class="meter">
+				<span style="width: 25%"></span>
+			</div>
+    	<p>Marketing</p>
+			<div class="meter">
+				<span style="width: 25%"></span>
+			</div>
+			</div>
+  	</section>
+  <section id="work-background">
+		<div class="work-spacing">
+			<div class="nested-work-box">
+			<i class="far fa-folder-open fa-work-icons"></i>
+			<p>
+			<strong>548</strong></br>
+			Projects Completed
+			</p>
+			</div>
+		<div class="nested-work-box">
+			<i class="far fa-clock fa-work-icons"></i>
+			<p>
+			<strong>1465</strong></br>
+			Working Hours
+		</p>
+		</div>
+		<div class="nested-work-box">
+			<i class="far fa-star fa-work-icons"></i>
+    <p>
+			<strong>612</strong></br>
+			Positive Feedbacks
+		</p>
+		</div>
+		<div class="nested-work-box">
+		<i class="far fa-heart fa-work-icons"></i>
+    <p>
+			<strong>735</strong>735</br>
+			Happy Clients
+		</p>
+		</div>
+		</div>
   </section>
-  <section id="work-summary">
-    <img src="" alt="">
-    <p>548</p>
-    <p>Projects Completed</p>
-    <img src="" alt="">
-    <p>1465</p>
-    <p>Working Hours</p>
-    <img src="" alt="">
-    <p>612</p>
-    <p>Positive Feedbacks</p>
-    <img src="" alt="">
-    <p>735</p>
-    <p>Happy Clients</p>
+  <section id="gallery">
+    <img class="image-resize"src="/Users/seth/projects/pirollrecreation/assets/gallery/barrett-ward-551977-unsplash.jpg" alt="">
+    <img class="image-resize" src="/Users/seth/projects/pirollrecreation/assets/gallery/charles-etoroma-390116-unsplash.jpg" alt="">
+    <img class="image-resize" src="/Users/seth/projects/pirollrecreation/assets/gallery/eniko-kis-663725-unsplash.jpg" alt="">
+    <img class="image-resize"src="/Users/seth/projects/pirollrecreation/assets/gallery/imani-clovis-234736-unsplash.jpg" alt="">
+    <img class="image-resize"src="/Users/seth/projects/pirollrecreation/assets/gallery/norbert-levajsics-203627-unsplash.jpg" alt="">
+    <img class="image-resize"src="/Users/seth/projects/pirollrecreation/assets/gallery/oli-dale-139177-unsplash.jpg" alt="">
+    <img class="image-resize"src="/Users/seth/projects/pirollrecreation/assets/gallery/pat-kwon-603556-unsplash.jpg" alt="">
+    <img class="image-resize"src="/Users/seth/projects/pirollrecreation/assets/gallery/toa-heftiba-526292-unsplash.jpg" alt="" >
   </section>
-  <section id="image_gallery">
-    <img src="" alt="">
-    <img src="" alt="">
-    <img src="" alt="">
-    <img src="" alt="">
-    <img src="" alt="">
-    <img src="" alt="">
-    <img src="" alt="">
-    <img src="" alt="">
+	<section id="more-work">
+    <p class="load-more-work">Load more work</p>
   </section>
-  <section id="more_work">
-    <p>Load more work</p>
-  </section>
-  <section id="work_process">
+  <section id="work-process" class="center">
     <h3>Our Work Process</h3>
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-    <img src="" alt="">
+		<iframe class="iframe-relative"width="700" height="400" src="https://www.youtube.com/embed/kqwgs7vBMkU" frameborder="0" allow="autoplay; encrypted-media"
+		 allowfullscreen></iframe>
   </section>
-  <section id="what_we_do">
-    <img src="" alt="">
-    <p>Ui/Ux Design</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-    <img src="" alt="">
-    <p>Web Development</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-    <img src="" alt="">
-    <p>App/Mobile</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-    <img src="" alt="">
-    <p>Game Design</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-    <img src="" alt="">
-    <p>Seo/Marketing</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-    <img src="" alt="">
-    <p>Photography</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-    <img src="" alt="">
-    <p>Graphic Design</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-    <img src="" alt="">
-    <p>Illustrations</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+  <section id="what-we-do">
+		<div class="column-wrapper">
+			<i class="far fa-gem"></i>
+    	<strong><p>Ui/Ux Design</p></strong>
+			<p class="p-width">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+		</div>
+		<div class="column-wrapper">
+			<i class="fas fa-code"></i>
+    	<strong><p>Web Development</p></strong>
+			<p class="p-width">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+		</div>
+		<div class="column-wrapper">
+			<i class="fas fa-mobile-alt"></i>
+			<strong><p>App/Mobile</p></strong>
+			<p class="p-width">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+		</div>
+		<div class="column-wrapper">
+			<i class="fas fa-gamepad"></i>
+			<strong><p>Game Design</p></strong>
+			<p class="p-width">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+		</div>
+		<div class="column-wrapper">
+			<i class="fas fa-plane"></i>
+			<strong><p>Seo/Marketing</p></strong>
+			<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+		</div>
+		<div class="column-wrapper">
+			<i class="fas fa-camera-retro"></i>
+			<strong><p>Photography</p></strong>
+			<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+		</div>
+		<div class="column-wrapper">
+			<i class="fas fa-fill-drip"></i>
+			<strong><p>Graphic Design</p></strong>
+			<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+		</div>
+    <div class="column-wrapper">
+			<i class="fas fa-pencil-alt"></i>
+			<strong><p>Illustrations</p></strong>
+			<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+		</div>
   </section>
-  <section id="quote_slider">
-    <h6>"Outstanding job and exceeded all expectations. It was a pleasure to work with them on a sizeable first project and am looking forward to start the next one asap."</h6>
-    <p>Michael Hopkins</p>
+  <section id="quote-slider">
+		<div class="quote-slider-container">
+    <h3 class="quote-width">"Outstanding job and exceeded all expectations. It was a pleasure to work with them on a sizeable first project and am looking forward to start the next one asap."</h3>
+		<p>Michael Hopkins</p>
+		</div>
     <!--some random 3 circle thing here, just figure it out later-->
   </section>
   <section id="sponsors">
