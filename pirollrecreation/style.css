@@ -51,6 +51,17 @@ h3 {
   display: flex;
 }
 
+.column {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.center-margins {
+	margin-left: 37.75%;
+	margin-right: 37.75%;
+}
+
 .center {
 	margin-top: 2.5%;
 	margin-bottom: 2.5%;
@@ -275,3 +286,18 @@ h3 {
 	margin-right: 25%;
 }
 
+
+
+.form-wrapper {
+	width: 50%;
+}
+
+.form-row{
+	display: flex;
+	justify-content: center;
+}
+
+.form-margin {
+	margin-left: .5em;
+	margin-right: .5em;
+}
