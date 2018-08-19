@@ -165,18 +165,13 @@
   <section id="contact">
 			<h3 class="form-row">Need a project?</h3>
 			<p class="form-row">Let us know what you're looking for in an agency. We'll take a look and see if this could be the start of something beautiful</p>
-		<form action="https://formspree.io/your@email.com" method="POST">
-			<div class="form-row">
-				<input class="form-margin" type="text" placeholder="Your Name" name="name">
-				<input class="form-margin" type="email" placeholder="Your Email" name="_replyto">
+		<form class="flex-container">
+			<div class="flex-wrapper">
+				<input type="text" placeholder="Your Name*">
+				<input type="text" placeholder="Your E-Mail Address*">
+				<textarea placeholder="Subject"></textarea>
 			</div>
-			<div class="column center-margins">
-				<input type="text" placeholder="Title" name="title">
-			</div>
-			<div class="column center-margins">
-				<input type="text" placeholder="Comments" name="comment">
-			</div>
-			<input class="submit-button" type="submit" value="Send">
+			<textarea placeholder="Type your message here..." rows="7"></textarea>
 		</form>
   </section>
   <footer>
