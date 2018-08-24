@@ -266,6 +266,9 @@ h3 {
 	width: 15%;
 }
 
+#contact {
+	width: 800px;	
+}
 .flex-row {
 	display: flex;
 	
@@ -302,7 +305,7 @@ h3 {
 
 .flex-container {
   display: flex;
-  border: 1px solid black;  
+  border: 1px solid #f3f3f3;  
   padding: 10px 5px;
 }
 .flex-wrapper {
